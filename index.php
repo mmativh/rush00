@@ -13,7 +13,7 @@
     </div>
     <div class= "c_navc">
         <div class="item">
-        <a class="cor_text2" href="cat_page.php">Adidas</a>
+        <a class="cor_text2" href="cat_page.php#adidas">Adidas</a>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
@@ -23,7 +23,7 @@
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="cat_page.php">Puma</a>
+        <a class="cor_text2" href="cat_page.php#phuma">Puma</a>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 

@@ -100,8 +100,32 @@ nav {
 
 .basket ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: left;
+    background-color: white;
+    padding-bottom: 15px;
+    border-top: 1px solid #EAE9E9;
+    padding-top: 15px;
+    margin: 0px;
  }
+ .item-sec {
+     overflow: hidden;
+ }
+
+ .basket ul a {
+    display: inline-block;
+    color: white;
+    text-decoration-line: none;
+    padding: 5px;
+    border-radius: 5px;
+ }
+ .titleh {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+ }
+
 .cor_text2:hover {
     text-decoration-line: underline;
 }
@@ -193,7 +217,12 @@ footer a:hover {
     line-height: 40px;
     width: 200px;
 }
-
+.red {
+    background-color: red;
+ }
+.green {
+    background-color: green;
+ }
 .form_s a {
     clear: both;
     margin-top: 10px;
