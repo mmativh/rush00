@@ -4,14 +4,24 @@
     </div>
     <div class= "c_nav">
     <li class="basket">
-           <ul>
-               <form action="update_product.php" method="get">
-                <div class="item-sec"><img src="img/shoe1.jpeg" height="50px"/></div>
-               <input class="item-sec" value="Shoes"/>
-               <input type="text" class="item-sec" value="R 350.00"/>
-               <div class="item-sec"><input type="submit" name="remove" value="remove"class="red"/><input type="submit" name="update"class="green" value="add"/></div>
+           
+               <form action="update_product.php" method="post" enctype="multipart/form-data">
+                <div class="item-sec">
+                    <img src="img/shoe1.jpeg" height="50px"/>
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                </div>
+                <div class="item-sec">
+                    <input type="text"  value="Shoes"/>
+                </div>
+                <div class="item-sec">
+                    <input type="text" value="R 350.00"/>
+                </div>
+                <div class="item-sec">
+                    <input type="submit" name="update"class="green" value="add"/>
+                    <a href="delete_item.php?productid=210" class="red">Remove</a>
+                </div>
                 </form>
-           </ul>
+         
            <ul>
                <div class="item-sec"><b>ADD PRODUCT </b></div>
                <div class="item-sec"></div>
