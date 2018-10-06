@@ -4,32 +4,32 @@
     </div>
     <div class= "c_navc">
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Adidas</a>
+        <div class="pro_p">Adidas</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Nike</a>
+        <div class="pro_p">Nike</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Puma</a>
+        <div class="pro_p">Puma</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">New balance</a>
+        <div class="pro_p">New balance</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Converse</a>
+        <div class="pro_p">Converse</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Rebook</a>
+        <div class="pro_p">Rebook</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
     </div>
@@ -38,32 +38,32 @@
     </div>
     <div class= "c_navc">
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Adidas</a>
+        <div class="pro_p">Adidas</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Nike</a>
+        <div class="pro_p">Nike</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Puma</a>
+        <div class="pro_p">Puma trims <b>R 500.00</b> <a href="basket.php?productno=123">Add</a> </div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">New balance</a>
+        <div class="pro_p">Puma trims <b>R 500.00</b> <a href="basket.php?productno=123">Add</a> </div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Converse</a>
+        <div class="pro_p">Puma trims <b>R 500.00</b> <a href="basket.php?productno=123">Add</a> </div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
 
         <div class="item">
-        <a class="cor_text2" href="product_page.php">Rebook</a>
+        <div class="pro_p">Rebook</div>
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
     </div>

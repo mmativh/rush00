@@ -18,7 +18,7 @@
                 <a class="t_links" href="index.php">HOME</a>
                 <a class="t_links" href="cat_page.php">PRODUCTS</a>
                 <a class="t_links" href="signin.php">SIGN IN / UP</a>
-                <a class="t_links" href="basket">BASKET</a>
+                <a class="t_links" href="basket.php">BASKET</a>
                 <span class="t_links">
                     <input type="text" placeholder="Search" name="search"/>
                 </span>
