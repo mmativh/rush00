@@ -1,7 +1,7 @@
 <?php include "includes/header.php"; ?>
     <div class= "c_nav">
         <form action="#" method="Post" class="form_s">
-        <label>Welcome back (user-name)  you can change your account details here</label><br/>
+        <label>Welcome back (user-name)  <br/>you can change your account details here</label><br/>
         <div class="clear"></div>
             <label>Username</label>
             <input type="text" name="login"/>

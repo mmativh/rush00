@@ -108,8 +108,33 @@ nav {
     padding-top: 15px;
     margin: 0px;
  }
+ .basket form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: left;
+    background-color: white;
+    padding-bottom: 15px;
+    border-top: 1px solid #EAE9E9;
+    padding-top: 15px;
+    margin: 0px;
+ }
+
  .item-sec {
      overflow: hidden;
+ }
+ .item-sec input[type=submit] {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px none;
+}
+.item-sec a {
+    display: inline-block;
+    color: white;
+    text-decoration-line: none;
+    padding: 5px;
+    border-radius: 5px;
  }
 
  .basket ul a {
@@ -188,8 +213,8 @@ footer a:hover {
 }
 .form_s label {
     clear: both;
-    height: 30px;
-    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: block;
 }
 .form_s input[type=password] 
