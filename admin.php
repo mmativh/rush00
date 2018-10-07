@@ -11,10 +11,22 @@
                     <input type="file" name="fileToUpload" id="fileToUpload">
                 </div>
                 <div class="item-sec">
+                    <label class="a_label">Name of product:</label>
                     <input type="text" name="product_name" value="Shoes"/>
+                    <label class="a_label">Category:</label>
+                    <select name="cat">
+                    <option value="puma">Puma</option>
+                    <option value="nike">Nike</option>
+                    <option value="addidas">Adidas</option>
+                    <option value="newbalance">New Balance</option>
+                    <option value="reebok">Reebok</option>
+                    </select>
                 </div>
                 <div class="item-sec">
+                    <label class="a_label">Price of product:</label>
                     <input type="text" name="price" value="R 350.00"/>
+                    <label class="a_label">Units available:</label>
+                    <input class="unit_num" type="text" name="num_items" value="1"/>
                 </div>
                 <div class="item-sec">
                     <input type="submit" name="update" class="green" value="Update"/>
@@ -28,10 +40,22 @@
                     <input type="file" name="fileToUpload" id="fileToUpload">
                 </div>
                 <div class="item-sec">
+                    <label class="a_label">Name of product:</label>
                     <input type="text"  name="product_name" value="Shoes"/>
+                    <label class="a_label">Category:</label>
+                    <select name="cat">
+                    <option value="puma">Puma</option>
+                    <option value="nike">Nike</option>
+                    <option value="addidas">Adidas</option>
+                    <option value="newbalance">New Balance</option>
+                    <option value="reebok">Reebok</option>
+                    </select>
                 </div>
                 <div class="item-sec">
+                <label class="a_label">Price of product:</label>
                     <input type="text" name="price" value="R 350.00"/>
+                    <label class="a_label">Units available:</label>
+                    <input class="unit_num" type="text" name="num_items" value="1"/>
                 </div>
                 <div class="item-sec">
                     <input type="submit" name="update"class="green" value="ADD"/>

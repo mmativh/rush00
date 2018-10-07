@@ -97,10 +97,12 @@ nav {
     display: block;
     width: 100%;
  }
-
+.unit_num {
+    width: 20px;
+}
 .basket ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: left;
     background-color: white;
     padding-bottom: 15px;
@@ -187,6 +189,16 @@ footer li {
 }
 .clear {
     clear: both;
+}
+.units_n {
+    position: absolute;
+    color: green;
+}
+.a_label {
+    clear: both;
+    display: block;
+    position: relative;
+    font-size: 0.8em;
 }
 footer a {
     color: black;
