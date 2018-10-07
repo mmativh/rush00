@@ -8,12 +8,13 @@
         <form action="includes/user_update.php" method="POST" class="form_s">
         <label>Welcome back<br/>you can change your account details here</label><br/>
         <div class="clear"></div>
+        <input type="hidden" name="id" value="<?php $_SESSION['id'] ?>"/>
             <label>Firstname</label>
             <input type="text" name="fname" value=""/>
             <label>Lastname</label>
             <input type="text" name="lname" value=""/>
             <div class="clear"></div>
-            <input type="submit" name="sumbit" value="OK"/>
+            <input type="submit" name="submit" value="OK"/>
             <?php
             if ($_SESSION['permission'] == 1)
             {
