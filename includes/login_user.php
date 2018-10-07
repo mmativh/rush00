@@ -5,7 +5,7 @@ session_start();
     $pass = trim($_POST["passwd"]);
     if ($user && $pass) 
     {
-        $sql = "SELECT id, email, pass, firstname, permission FROM userInfo";
+        $sql = "SELECT id, email, pass, firstname, lastname, permission FROM userInfo";
         $result = mysqli_query($conn, $sql);
 
         if (mysqli_num_rows($result) > 0) {
@@ -18,6 +18,7 @@ session_start();
                         $_SESSION['permission'] = $row["permission"];
                         $_SESSION['id'] = $row["id"];
                         $_SESSION['firstname'] = $row["firstname"];
+                        $_SESSION['lastname'] = $row["lastname"];
                         header("Location: ../index.php");
                         return 0;
                     }

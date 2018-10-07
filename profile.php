@@ -1,14 +1,17 @@
 <?php include "includes/header.php"; ?>
+<?php if(!$_SESSION['id'])
+        {
+            header("Location: signup.php");
+        }
+?>
     <div class= "c_nav">
         <form action="includes/user_update.php" method="POST" class="form_s">
-        <label>Welcome back (user-name)  <br/>you can change your account details here</label><br/>
+        <label>Welcome back<br/>you can change your account details here</label><br/>
         <div class="clear"></div>
             <label>Firstname</label>
-            <input type="text" name="fname"/>
+            <input type="text" name="fname" value=""/>
             <label>Lastname</label>
-            <input type="text" name="lname"/>
-            <label>Password</label>
-            <input type="password" name="passwd"/>
+            <input type="text" name="lname" value=""/>
             <div class="clear"></div>
             <input type="submit" name="sumbit" value="OK"/>
             <?php
