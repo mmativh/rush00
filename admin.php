@@ -32,8 +32,6 @@
                     <input type="submit" name="update"class="green" value="ADD"/>
                 </div>
                 </form>
-         
-           
        </li>
     </div>
 <?php include "includes/footer.php"; ?>

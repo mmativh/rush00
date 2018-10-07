@@ -1,12 +1,5 @@
 <?php
 
-for ($num = 0; $num < 6; $num++)
-{
-    $u_id = 1230;
-    $u_fname = "Puma";
-    $u_lname = "Puma";
-    $u_email = "user@gmail.com";
-
     echo '<form action="update_user.php" method="POST" enctype="multipart/form-data">
     <div class="item-sec">
     <label class="a_label">User first name:</label>
@@ -25,6 +18,5 @@ for ($num = 0; $num < 6; $num++)
         <a href="user_remove.php?user_id='.$u_id.'" class="red">Remove</a>
     </div>
     </form>';
-}
 
 ?>
