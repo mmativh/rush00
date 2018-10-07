@@ -1,29 +1,24 @@
 <?php
 
     include('connect.php');
-
-    $user = $_POST["login"];
-    $pass = hash('ripemd160',$_POST["passwd"]);
+    $user = $_POST["email"];
+    $pass = $_POST["passwd"];
     if ($user && $pass) 
     {
-        if($_SERVER["REQUEST_METHOD"] == "POST") {
-            
-            $email = mysqli_real_escape_string($conn,$user);
-            $pass = mysqli_real_escape_string($conn,$pass); 
-            
-            $sql = "SELECT id FROM userinfo WHERE email = '$email' and pass = '$pass'";
-            $result = mysqli_query($conn,$sql);
-            $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-            $count = mysqli_num_rows($result);
-            if($count == 1) {
-               $_SESSION['login_user'] = $row['id'];;
-             //  header("location: index.php");
-            }else {
-               $error = "Your Login Name or Password is invalid";
+        $sql = "SELECT id, email, pass FROM userInfo";
+        $result = mysqli_query($conn, $sql);
+
+        if (mysqli_num_rows($result) > 0) {
+            while($row = mysqli_fetch_assoc($result)) {
+                if ($row["email"] === $user && $row["pass"] === $pass)
+                {
+                    $_SESSION['id'] = $row["id"];
+                    return 0;
+                }
             }
-         }
-      
-        
+        } else {
+            echo "0 results";
+        } 
     }
 
    
