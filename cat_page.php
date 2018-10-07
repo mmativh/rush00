@@ -7,4 +7,8 @@
     <div class= "c_navc">
         <?php include "includes/product.php"; ?>
     </div>
+<h2 id="puma" class="titleh">Reebok</h2>
+    <div class= "c_navc">
+        <?php include "includes/product.php"; ?>
+    </div>
 <?php include "includes/footer.php"; ?>
