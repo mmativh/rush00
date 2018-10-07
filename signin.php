@@ -6,7 +6,7 @@
             <label>Password</label>
             <input type="text" name="passwd"/>
             <div class="clear"></div>
-            <input type="submit" name="sumbit" value="OK"/>
+            <input type="submit" name="submit" value="OK"/>
             <a href="signup.php">No account? Register Here</a>
         </form>
     </div>

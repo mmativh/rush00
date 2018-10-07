@@ -24,10 +24,10 @@ session_start();
                 }
             }
             $_SESSION['id'] = 0;
+            echo "Unsuccessful Login <br/>";
+            header( "refresh:1;url=../index.php" );
         } else {
             header("Location: login.php");
         } 
     }
-
-   
 ?>

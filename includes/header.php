@@ -2,7 +2,7 @@
     session_start();
     if ($_SESSION['id'] and $_SESSION['id'] != 0)
     {
-        $name = "Profile";        
+        $name = "PROFILE";        
         $url = "profile.php";
     }
     else {
@@ -30,7 +30,7 @@
                 <a class="t_links" href='.$url.'>'.$name.'</a>
                 <a class="t_links" href="basket.php">BASKET</a>
                 <span class="t_links">
-                    <input type="text" placeholder="Search" name="search"/>
+                    <a class="t_links" href="destroy_session.php">LOGOUT</a>
                 </span>
             </div>
         </nav>

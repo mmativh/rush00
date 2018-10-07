@@ -6,7 +6,8 @@
     {
         $sql = "DELETE FROM userInfo WHERE id=$productid";
         if (mysqli_query($conn, $sql)) {
-            echo "Record deleted successfully";
+            include "../destroy_session.php";
+            header("location: ../index.php");
         } else {
             echo "Error deleting record: " . mysqli_error($conn);
         }

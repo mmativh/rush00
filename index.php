@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <?php include "includes/header.php"; ?>
     <div class="corra">
         <div class="corra_img">
@@ -42,4 +46,4 @@
         <img src="img/shoe1.jpeg" width="100%"/>
         </div>
     </div>
-<?php include "includes/footer.php"; ?>
+<?php print_r($_SESSION); include "includes/footer.php";?>
