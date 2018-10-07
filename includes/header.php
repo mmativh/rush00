@@ -1,5 +1,14 @@
 <?php
     session_start();
+    if ($_SESSION['id'] and $_SESSION['id'] != 0)
+    {
+        $name = "Profile";        
+        $url = "profile.php";
+    }
+    else {
+        $name = "SIGN IN / UP ";        
+        $url = "signin.php";
+    }
     echo '
 <!DOCTYPE html>
 <html>
@@ -18,7 +27,7 @@
             <a class="t_links" href="index.php"><img src="img/logo.png" height="60px" /></a>
                 <a class="t_links" href="index.php">HOME</a>
                 <a class="t_links" href="cat_page.php">PRODUCTS</a>
-                <a class="t_links" href="signin.php">SIGN IN / UP</a>
+                <a class="t_links" href='.$url.'>'.$name.'</a>
                 <a class="t_links" href="basket.php">BASKET</a>
                 <span class="t_links">
                     <input type="text" placeholder="Search" name="search"/>

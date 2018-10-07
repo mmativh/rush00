@@ -4,7 +4,7 @@
             <label>Email</label>
             <input type="text" name="email"/>
             <label>Password</label>
-            <input type="password" name="passwd"/>
+            <input type="text" name="passwd"/>
             <div class="clear"></div>
             <input type="submit" name="sumbit" value="OK"/>
             <a href="signup.php">No account? Register Here</a>

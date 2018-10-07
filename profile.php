@@ -9,8 +9,13 @@
             <input type="password" name="passwd"/>
             <div class="clear"></div>
             <input type="submit" name="sumbit" value="OK"/>
-            <a href="admin_user.php?user_id=1">User admin</a>
-            <a href="admin.php?user_id=1">User admin</a>
+            <?php
+            if ($_SESSION['permission'] == 1)
+            {
+              echo   '<a href="admin_user.php?user_id=1">User admin</a>
+                       <a href="admin.php?user_id=1">User admin</a>';
+            }
+            ?>
             <a href="delete.php?user_id=1">Delete my account</a>
         </form>
     </div>

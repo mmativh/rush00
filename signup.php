@@ -8,7 +8,7 @@
             <label>Email address</label>
             <input type="text" name="email"/>
             <label>Password</label>
-            <input type="password" name="passwd"/>
+            <input type="text" name="passwd"/>
             <div class="clear"></div>
             <input type="submit" name="sumbit" value= "Createaccount"/>
             <a href="signin.php">Have an account? Login</a>
