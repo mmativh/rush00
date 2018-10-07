@@ -1,6 +1,6 @@
 <?php include "includes/header.php"; ?>
     <div class= "c_nav">
-        <form action="login_user.php" method="POST" class="form_s">
+        <form action="includes/login_user.php" method="POST" class="form_s">
             <label>Email</label>
             <input type="text" name="email"/>
             <label>Password</label>

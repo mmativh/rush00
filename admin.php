@@ -5,7 +5,7 @@
     <div class= "c_nav">
     <li class="basket">        
         <?php include "includes/admin_list.php"; ?>
-                <form action="add_product.php" method="POST" enctype="multipart/form-data">
+                <form action="includes/product_create.php" method="POST" enctype="multipart/form-data">
                 <div class="item-sec">
                     <img src="img/shoe1.jpeg" height="50px"/>
                     <input type="file" name="fileToUpload" id="fileToUpload">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="item-sec">
                 <label class="a_label">Price of product:</label>
-                    <input type="text" name="price" value="R 350.00"/>
+                    <input type="text" name="price" value="350.00"/>
                     <label class="a_label">Units available:</label>
                     <input class="unit_num" type="text" name="num_items" value="1"/>
                 </div>
