@@ -5,7 +5,7 @@
     <div class= "c_nav">
     <li class="basket">        
         <?php include "includes/admin_list.php"; ?>
-                <form action="add_product.php" method="POST" enctype="multipart/form-data">
+                <form action="add_product.php" method="post" enctype="multipart/form-data">
                 <div class="item-sec">
                     <img src="img/shoe1.jpeg" height="50px"/>
                     <input type="file" name="fileToUpload" id="fileToUpload">
@@ -32,8 +32,6 @@
                     <input type="submit" name="update"class="green" value="ADD"/>
                 </div>
                 </form>
-         
-           
        </li>
     </div>
 <?php include "includes/footer.php"; ?>

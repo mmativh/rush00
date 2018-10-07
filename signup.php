@@ -1,8 +1,10 @@
 <?php include "includes/header.php"; ?>
     <div class= "c_nav">
-        <form action="#" method="Post" class="form_s">
-            <label>Username</label>
-            <input type="text" name="login"/>
+        <form action="register_user.php" method="POST" class="form_s">
+            <label>First Name</label>
+            <input type="text" name="fname"/>
+            <label>Last Name</label>
+            <input type="text" name="lname"/>
             <label>Email address</label>
             <input type="password" name="passwd"/>
             <label>Password</label>

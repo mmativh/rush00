@@ -8,7 +8,7 @@ for ($num = 0; $num < 6; $num++)
     $p_name = "Puma";
     $p_image = "shoe1.jpeg";
 
-    echo '<form action="update_product.php" method="post" enctype="multipart/form-data">
+    echo '<form action="update_product.php" method="POST" enctype="multipart/form-data">
     <div class="item-sec">
         <img src="img/'.$p_image.'" height="50px"/>
         <input type="file" name="fileToUpload" id="fileToUpload">
