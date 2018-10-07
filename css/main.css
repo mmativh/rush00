@@ -126,6 +126,7 @@ nav {
  }
  .item-sec input[type=submit] {
     display: inline-block;
+    font-size: 1em;
     color: white;
     padding: 5px;
     border-radius: 5px;
