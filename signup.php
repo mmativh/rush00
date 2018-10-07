@@ -6,7 +6,7 @@
             <label>Last Name</label>
             <input type="text" name="lname"/>
             <label>Email address</label>
-            <input type="password" name="email"/>
+            <input type="text" name="email"/>
             <label>Password</label>
             <input type="password" name="passwd"/>
             <div class="clear"></div>
