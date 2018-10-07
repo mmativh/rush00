@@ -1,10 +1,12 @@
 <?php include "includes/header.php"; ?>
     <div class= "c_nav">
-        <form action="#" method="POST" class="form_s">
+        <form action="includes/user_update.php" method="POST" class="form_s">
         <label>Welcome back (user-name)  <br/>you can change your account details here</label><br/>
         <div class="clear"></div>
-            <label>Username</label>
-            <input type="text" name="login"/>
+            <label>Firstname</label>
+            <input type="text" name="fname"/>
+            <label>Lastname</label>
+            <input type="text" name="lname"/>
             <label>Password</label>
             <input type="password" name="passwd"/>
             <div class="clear"></div>
@@ -16,7 +18,13 @@
                        <a href="admin.php?user_id=1">User admin</a>';
             }
             ?>
-            <a href="delete.php?user_id=1">Delete my account</a>
+            <?php 
+            if ($_SESSION['id'])
+            {
+                echo '<a href="includes/user_delete.php?user_id='.$_SESSION['id'].'">Delete my account</a>';
+            }
+            
+            ?>
         </form>
     </div>
 <?php include "includes/footer.php"; ?>
